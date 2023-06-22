@@ -1,0 +1,70 @@
+{
+  "{asid}": {
+    "profileList": ["AsidAuthorities", "AsidExecutives", "AsidLicenseOwner", "Public"],
+    "useCaseMap": {}
+  },
+  "*": {
+    "profileList": [
+      "Authorities",
+      "Executives",
+      "AwidLicenseOwner",
+      "Public",
+      "Authenticated",
+      "AwidInitiator",
+      "User"
+    ],
+    "useCaseMap": {
+      "sys/uuAppWorkspace/init": {
+        "sysStateList": ["created", "assigned"],
+        "profileList": ["AwidLicenseOwner", "AwidInitiator"]
+      },
+      "sys/uuAppWorkspace/load": {
+        "sysStateList": ["active"],
+        "profileList": ["Authenticated"]
+      },
+      "sys/uuAppWorkspace/loadBasicData": {
+        "sysStateList": ["active"],
+        "profileList": ["Public"]
+      },
+      "defaultUve": {
+        "profileList": ["Public"]
+      },
+      "sys/uuAppWorkspace/initUve": {
+        "sysStateList": ["created"],
+        "profileList": ["Public", "AwidLicenseOwner"]
+      },
+      "shoppingList/list": {
+        "sysStateList": ["active"],
+        "profileList": ["AwidLicenseOwner", "User"]
+      },
+      "shoppingList/create": {
+        "sysStateList": ["active"],
+        "profileList": ["AwidLicenseOwner", "User"]
+      },
+      "shoppingList/delete": {
+        "sysStateList": ["active"],
+        "profileList": ["AwidLicenseOwner", "User"]
+      },
+      "shoppingList/get": {
+        "sysStateList": ["active"],
+        "profileList": ["AwidLicenseOwner", "User"]
+      },
+      "shoppingList/update": {
+        "sysStateList": ["active"],
+        "profileList": ["AwidLicenseOwner", "User"]
+      },
+      "shoppingList/listItem/create": {
+        "sysStateList": ["active"],
+        "profileList": ["AwidLicenseOwner", "User"]
+      },
+      "shoppingList/listItem/delete": {
+        "sysStateList": ["active"],
+        "profileList": ["AwidLicenseOwner", "User"]
+      },
+      "shoppingList/listItem/check": {
+        "sysStateList": ["active"],
+        "profileList": ["AwidLicenseOwner", "User"]
+      }
+    }
+  }
+}
