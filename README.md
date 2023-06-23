@@ -1,4 +1,4 @@
-<img width="1386" alt="image" src="https://github.com/inaruml/backendProjects/assets/54745005/c381b076-8a5d-4670-adb2-ac043bed44cb"># Assignment
+# Assignment
 
 The application should allow users to manage items in the shopping list (add, mark as already purchased). Each shopping list always has its owner, i.e. the user who creates the shopping list in the application. Subsequently, the user can also invite other users who can use the shopping list.
 
