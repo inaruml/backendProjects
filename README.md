@@ -1,4 +1,4 @@
-# Assignment
+<img width="1386" alt="image" src="https://github.com/inaruml/backendProjects/assets/54745005/c381b076-8a5d-4670-adb2-ac043bed44cb"># Assignment
 
 The application should allow users to manage items in the shopping list (add, mark as already purchased). Each shopping list always has its owner, i.e. the user who creates the shopping list in the application. Subsequently, the user can also invite other users who can use the shopping list.
 
@@ -31,16 +31,17 @@ Endpoint shoppingList/create:
 
 Endpoint shoppingList/list:
 
-<img width="1398" alt="image" src="https://github.com/inaruml/frontendProjects/assets/54745005/96a22901-55ca-481a-bd99-d984fa514041">
+<img width="1386" alt="image" src="https://github.com/inaruml/frontendProjects/assets/54745005/e1eabd72-d0b5-483e-afd2-61995a74915e">
 
 Endpoint shoppingList/update:
 
-<img width="1392" alt="image" src="https://github.com/inaruml/frontendProjects/assets/54745005/a637125f-02d9-40f1-a610-b1d453338fae">
+<img width="1390" alt="image" src="https://github.com/inaruml/frontendProjects/assets/54745005/76b20046-2a0e-4338-a356-551519df2f41">
 
+Endpoint shoppingList/listItem/create:
 
+<img width="1384" alt="image" src="https://github.com/inaruml/backendProjects/assets/54745005/ed37953e-b28f-47fc-b0a5-90746ce3e81f">
 
-
-
+These are the endpoints I chose to showcase :-)
 
 
 # Development and Usage
